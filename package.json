@@ -1,0 +1,18 @@
+{
+  "name": "@guilouro/hello-github-packages",
+  "version": "1.0.0",
+  "description": "First project on github packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "packages"
+  ],
+  "author": "Guilherme Louro",
+  "license": "MIT",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
